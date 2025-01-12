@@ -29,7 +29,7 @@ const Navbar = ({ containerStyles, toggleMenu, MenuOpened }) => {
          
           <FaRegWindowClose onClick={toggleMenu} />
           <Link to={"/"} className="bold-24 m-10">
-            <h4 className="text-secondary">FlavourHeaven</h4>
+            <h4 className="text-secondary pl-2 ">FlavourHeaven</h4>
           </Link>
         </>
       )}
